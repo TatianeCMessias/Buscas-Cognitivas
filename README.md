@@ -1,29 +1,29 @@
 # Buscas-Cognitivas
 
-Descrição
+## Descrição
 
 Este guia apresenta o passo a passo para configurar uma pesquisa no Azure Cognitive Search, além de explorar seus benefícios, 
 ferramentas que podem se integrar a essa funcionalidade e os aprendizados adquiridos.
 
-Tecnologias Utilizadas:
+## Tecnologias Utilizadas:
 - Azure Cognitive Search
 - Portal do Azure
 
-Como Configurar a Pesquisa no Azure
+## Como Configurar a Pesquisa no Azure
 
-1 - Criar um Serviço de Pesquisa no Azure
+1 - Crie um Serviço de Pesquisa no Azure
 - Acesse o Portal do Azure (portal.azure.com);
 - No menu lateral, clique em Criar um recurso;
 - Pesquise por Azure Cognitive Search e selecione a opção;
 - Escolha um Nome, Grupo de Recursos e um Plano de Preço adequado ao seu projeto;
 - Clique em Criar e aguarde a implantação do serviço.
 
-2 - Criar um Serviço no Azure AI Search
+2 - Crie um Serviço no Azure AI Search
 - Acesse o Portal do Azure;
 - Crie um novo recurso e busque por Azure AI Search;
 - Escolha a camada de preço e crie o serviço.
 
-3 - Criar e Configurar um Índice de Pesquisa
+3 - Crie e Configure um Índice de Pesquisa
 - No Azure AI Search, acesse Índices e clique em Adicionar;
 - Defina os campos do índice (exemplo: título, descrição, categoria);
 - Escolha um campo como chave primária (exemplo: ID do documento);
